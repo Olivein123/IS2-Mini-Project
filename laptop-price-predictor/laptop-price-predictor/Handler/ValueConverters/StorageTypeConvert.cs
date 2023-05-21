@@ -16,12 +16,12 @@ namespace laptop_price_predictor.Handler.ValueConverters
 
             if(selected.Equals("HDD ONLY"))
             {
-                value = 1;
+                value = 0;
 
             }
             else if(selected.Equals("SSD ONLY"))
             {
-                value = 2;
+                value = 1;
 
             }
             else if(selected.Equals("HDD + SSD"))
