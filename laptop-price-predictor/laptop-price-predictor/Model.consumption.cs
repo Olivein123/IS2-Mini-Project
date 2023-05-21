@@ -30,11 +30,20 @@ namespace Laptop_price_predictor
             [ColumnName(@"GHz")]
             public float GHz { get; set; }
 
-            [ColumnName(@"RAM(IN GB)")]
-            public float RAM_IN_GB_ { get; set; }
+            [ColumnName(@"RAM(in Gb)")]
+            public float RAM_in_Gb_ { get; set; }
 
-            [ColumnName(@"Storage(Gb)")]
-            public float Storage_Gb_ { get; set; }
+            [ColumnName(@"HDD Size(in Gb)")]
+            public float HDD_Size_in_Gb_ { get; set; }
+
+            [ColumnName(@"SSD Size(In GB)")]
+            public float SSD_Size_In_GB_ { get; set; }
+
+            [ColumnName(@"HYBRID Size(In GB)")]
+            public float HYBRID_Size_In_GB_ { get; set; }
+
+            [ColumnName(@"FLASH STORAGE Size(In GB)")]
+            public float FLASH_STORAGE_Size_In_GB_ { get; set; }
 
             [ColumnName(@"GPU")]
             public float GPU { get; set; }
@@ -73,11 +82,20 @@ namespace Laptop_price_predictor
             [ColumnName(@"GHz")]
             public float GHz { get; set; }
 
-            [ColumnName(@"RAM(IN GB)")]
-            public float RAM_IN_GB_ { get; set; }
+            [ColumnName(@"RAM(in Gb)")]
+            public float RAM_in_Gb_ { get; set; }
 
-            [ColumnName(@"Storage(Gb)")]
-            public float Storage_Gb_ { get; set; }
+            [ColumnName(@"HDD Size(in Gb)")]
+            public float HDD_Size_in_Gb_ { get; set; }
+
+            [ColumnName(@"SSD Size(In GB)")]
+            public float SSD_Size_In_GB_ { get; set; }
+
+            [ColumnName(@"HYBRID Size(In GB)")]
+            public float HYBRID_Size_In_GB_ { get; set; }
+
+            [ColumnName(@"FLASH STORAGE Size(In GB)")]
+            public float FLASH_STORAGE_Size_In_GB_ { get; set; }
 
             [ColumnName(@"GPU")]
             public float GPU { get; set; }
