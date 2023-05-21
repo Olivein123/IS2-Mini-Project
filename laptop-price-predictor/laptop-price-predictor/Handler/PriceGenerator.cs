@@ -1,9 +1,5 @@
 using Laptop_price_predictor;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace laptop_price_predictor.Handler
 {
@@ -11,7 +7,7 @@ namespace laptop_price_predictor.Handler
     {
         public PriceGenerator() { }
 
-        public Model.ModelOutput Generate(Laptop laptop)
+        public float Generate(Laptop laptop)
         {
             //Load sample data
             var sampleData = new Model.ModelInput()
@@ -21,8 +17,11 @@ namespace laptop_price_predictor.Handler
                 Screen_Resolution = laptop.ScreenRes,
                 CPU = laptop.CpuType,
                 GHz = laptop.CpuSpeed,
-                RAM_IN_GB_ = laptop.RamSize,
-                Storage_Gb_ = laptop.StorageType,
+                RAM_in_Gb_ = laptop.RamSize,
+                HDD_Size_in_Gb_ = laptop.HDDSize,
+                SSD_Size_In_GB_ = laptop.SSDSize,
+                FLASH_STORAGE_Size_In_GB_ = laptop.FlashStorageSize,
+                HYBRID_Size_In_GB_ = laptop.HybridSize,
                 GPU = laptop.GpuType,
                 OS = laptop.OperatingSystem,
                 Weight__in_kg_ = laptop.Weight,
@@ -31,7 +30,9 @@ namespace laptop_price_predictor.Handler
             //Load model and predict output
             var result = Model.Predict(sampleData);
 
-            return result;
+            float converted = result.Score;
+            
+            return converted;
 
         }
 

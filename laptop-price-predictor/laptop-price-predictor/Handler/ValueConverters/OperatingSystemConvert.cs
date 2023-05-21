@@ -31,21 +31,25 @@ namespace laptop_price_predictor.Handler.ValueConverters
             {
                 value = 3;
             }
-            else if (selected.Equals("Windows 7"))
+            else if (selected.Equals("Android"))
             {
                 value = 4;
             }
-            else if (selected.Equals("Windows 10"))
+            else if (selected.Equals("Windows 7"))
             {
                 value = 5;
             }
-            else if (selected.Equals("Windows 10 S"))
+            else if (selected.Equals("Windows 10 "))
             {
                 value = 6;
             }
-            else
+            else if (selected.Equals("Windows 10 S"))
             {
                 value = 7;
+            }
+            else
+            {
+                value = 8;
             }
             return value;
         }
