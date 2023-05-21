@@ -9,7 +9,7 @@ namespace laptop_price_predictor.Handler
     public class Laptop
     {
         public float Category { get; set; }
-        public float ScreenSize { get; set; }
+        public float ScreenSize { get; set}           
         public float ScreenRes { get; set; }
         public float CpuType { get; set; }
         public float CpuSpeed { get; set; }
@@ -17,6 +17,7 @@ namespace laptop_price_predictor.Handler
         public float RamSize { get; set; }
         public float StorageType { get; set; }
         public float OperatingSystem { get; set; }
-        public float Weight { get; set; }
+        public float Weight { get; set; }  
     }
 }
+

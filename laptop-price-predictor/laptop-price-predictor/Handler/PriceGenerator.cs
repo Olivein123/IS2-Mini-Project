@@ -1,4 +1,4 @@
-﻿using Laptop_price_predictor;
+using Laptop_price_predictor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,5 +34,6 @@ namespace laptop_price_predictor.Handler
             return result;
 
         }
+
     }
 }
