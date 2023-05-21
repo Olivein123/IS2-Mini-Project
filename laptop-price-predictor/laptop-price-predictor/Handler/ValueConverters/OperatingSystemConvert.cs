@@ -39,7 +39,7 @@ namespace laptop_price_predictor.Handler.ValueConverters
             {
                 value = 5;
             }
-            else if (selected.Equals("Windows 10 "))
+            else if (selected.Equals("Windows 10"))
             {
                 value = 6;
             }
