@@ -22,7 +22,7 @@ namespace laptop_price_predictor
             laptop.CpuSpeed = Convert.ToSingle(comboBox4.SelectedItem);
             laptop.GpuType = Convert.ToSingle(comboBox7.SelectedItem);
             laptop.RamSize = Convert.ToSingle(comboBox6.SelectedItem);
-            laptop.StorageType = _storageValueConvert.ReturnFloatValue(comboBox5);
+            laptop.StorageType = _storageValueConvert.ReturnFloatValue(comboBoxHDD);
             laptop.OperatingSystem = Convert.ToSingle(comboBox1.SelectedItem);
             laptop.Weight = Convert.ToSingle(comboBox2.SelectedItem);
         }
@@ -31,9 +31,6 @@ namespace laptop_price_predictor
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
 
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
