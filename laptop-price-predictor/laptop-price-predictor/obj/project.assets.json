@@ -5831,19 +5831,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\M S I   GAMING\\.nuget\\packages\\": {}
+    "C:\\Users\\Shane\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\School\\346\\IS2-Mini-Project\\laptop-price-predictor\\laptop-price-predictor\\laptop-price-predictor.csproj",
+      "projectUniqueName": "C:\\Users\\Shane\\Documents\\SCHOOL FILES\\3RD YEAR\\2ND SEM\\MWF - CS346 - INTELLIGENT SYSTEMS 2\\Finals\\IS2-Mini-Project\\laptop-price-predictor\\laptop-price-predictor\\laptop-price-predictor.csproj",
       "projectName": "laptop-price-predictor",
-      "projectPath": "G:\\School\\346\\IS2-Mini-Project\\laptop-price-predictor\\laptop-price-predictor\\laptop-price-predictor.csproj",
-      "packagesPath": "C:\\Users\\M S I   GAMING\\.nuget\\packages\\",
-      "outputPath": "G:\\School\\346\\IS2-Mini-Project\\laptop-price-predictor\\laptop-price-predictor\\obj\\",
+      "projectPath": "C:\\Users\\Shane\\Documents\\SCHOOL FILES\\3RD YEAR\\2ND SEM\\MWF - CS346 - INTELLIGENT SYSTEMS 2\\Finals\\IS2-Mini-Project\\laptop-price-predictor\\laptop-price-predictor\\laptop-price-predictor.csproj",
+      "packagesPath": "C:\\Users\\Shane\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shane\\Documents\\SCHOOL FILES\\3RD YEAR\\2ND SEM\\MWF - CS346 - INTELLIGENT SYSTEMS 2\\Finals\\IS2-Mini-Project\\laptop-price-predictor\\laptop-price-predictor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\M S I   GAMING\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
